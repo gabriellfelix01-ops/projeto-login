@@ -1,0 +1,51 @@
+/* --------------------------- */
+/* ---CONFIGURAÇÕES GERAIS ---*/
+/* --------------------------- */
+@charset "UTF-8";
+main{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: linear-gradient(#ccc7c7, #444040);
+    background-repeat: no-repeat;
+}
+/* --------------------------- */
+/* ---CONFIGURAÇÕES RESPONSIVIDADE ---*/
+/* --------------------------- */
+@media screen and (min-width: 768px)
+{
+    .container{
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    height: 60vh;
+    width: 80vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000080;
+}
+    #login{
+    display: flex;
+    background-color: yellow;
+    height: 100%;
+    width: 60%;
+    border-radius: 0px 15px 15px 0px;
+}
+    #imagem{
+        background-color: blue;
+        display: flex;
+        height: 100%;
+        width: 40%;
+        border-radius: 15px 0px 0px 15px;
+
+    }
+}
