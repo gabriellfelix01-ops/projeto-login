@@ -41,6 +41,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 60%;
+    justify-content: center;
 }
 
 h1 {
@@ -48,14 +49,14 @@ h1 {
     font-size: 5vw;
     color: white;
     text-shadow: 1px 1px 3px black;
-    height: 20px;
+    
 }
 
 p {
     text-align: center;
     color: #797777;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 0px;
+
 }
 
 /* ---- FORMULÁRIO ---- */
