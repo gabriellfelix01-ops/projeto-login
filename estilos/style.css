@@ -1,0 +1,116 @@
+/* --------------------------- */
+/* ---CONFIGURAÇÕES GERAIS ---*/
+/* --------------------------- */
+@charset "UTF-8";
+main{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: linear-gradient(#808486, #353232);
+    background-repeat: no-repeat;
+}
+/* --------------------------- */
+/* ---CONFIGURAÇÕES PAGINA PRINCIPAL ---*/
+/* --------------------------- */
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 60vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000080;
+}
+/* ---- PAGINA DE LOGIN ---- */
+#login{
+    display: flex;
+    flex-direction: column;
+    background-color: #1A1E20;
+    height: 60%;
+    border-radius: 0px 0px 15px 15px;
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    height: 20px;
+}
+p{
+    text-align: center;
+    color: #797777;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* ---- FORMULÁRIO ---- */
+form{
+    margin: 0 auto;
+}
+
+#idsenha, #idemail{
+    height: 22px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #7C8083;
+    color: black;
+    text-indent: 10px;
+}
+
+#email, #senha{
+    border: 1px solid black;
+    transform: translateY(7px);
+    border-radius: 10px;
+    background-color: #7C8083;
+}
+
+#entrar{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+input::placeholder {
+    text-indent: 10px;
+    color: black;
+}
+#entrar:hover{
+    cursor: pointer;
+    background-color: #797777;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+#idemail:hover,#idsenha:hover{
+    background-color: white;
+    color: black;
+
+}
+
+/* --------------------------------- */
+/* --- IMAGEM --- */
+#imagem{
+    display: flex;
+    height: 40%;
+    border-top: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+#imagem img{
+    height: 100%;
+    width: 100%;
+    border-top: 10px;
+    border-radius: 15px 15px 0px 0px;
+    
+
+}
