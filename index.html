@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person,key">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
@@ -11,10 +12,29 @@
     <main>
         <div class="container">
             <div id="imagem">
-                <img src="" alt="">
+                <img src="imagens/fundo.jpeg" alt="">
+
             </div>
             <div id="login">
-                oi
+                <h1>Welcome Back!</h1>
+                <p>Enter your info to Sing In</p>
+                <form action="" method="post" autocomplete="on">
+                    <label for="idemail"><span id="email" class="material-symbols-outlined">
+                        person </span>
+                    </label>
+                    <input type="email" name="email" id="idemail" placeholder="Email" required>
+                    <br>
+                    <label for="idsenha">
+                        <span id="senha" class="material-symbols-outlined">
+                        key
+                        </span>
+                    </label>
+                    <input type="password" name="senha" id="idsenha" placeholder="Senha" required minlength="8">
+                    <br>
+                    <input id="entrar" type="submit" value="Sing In">
+                    
+
+                </form>
             </div>
         </div>
     </main>
