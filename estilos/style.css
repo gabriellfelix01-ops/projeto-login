@@ -12,7 +12,7 @@ body{
     height: 100%;
     width: 100%;
     box-sizing: border-box;
-    background-image: linear-gradient(#ccc7c7, #444040);
+    background-image: linear-gradient(#808486, #353232);
     background-repeat: no-repeat;
 }
 /* --------------------------- */
@@ -21,7 +21,6 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
     height: 80vh;
     width: 60vw;
     position: relative;
@@ -35,7 +34,7 @@ body{
 #login{
     display: flex;
     flex-direction: column;
-    background-color: rgb(48, 46, 46);
+    background-color: #1A1E20;
     height: 60%;
     border-radius: 0px 0px 15px 15px;
 }
@@ -56,34 +55,23 @@ p{
 form{
     margin: 0 auto;
 }
-#senha{
-    border: 1px solid black;
-    color: #797777;
-    transform: translateY(7px);
-    border-radius: 10px;
-    background-color: #444040;
-    
-}
-#idsenha{
+
+#idsenha, #idemail{
     height: 22px;
     border-radius: 10px;
     border: 1px solid black;
-    background-color: #444040;
+    background-color: #7C8083;
+    color: black;
+    text-indent: 10px;
 }
 
-#email{
+#email, #senha{
     border: 1px solid black;
-    color: #797777;
     transform: translateY(7px);
     border-radius: 10px;
-    background-color: #444040;
+    background-color: #7C8083;
 }
-#idemail{
-    height: 22px;
-    border-radius: 10px;
-    border: 1px solid black;
-    background-color: #444040;
-}
+
 #entrar{
     display: block;
     margin: auto;
@@ -93,17 +81,20 @@ form{
     border-radius: 10px;
     border: 1px solid black;
 }
-#idsenha, #idemail, placeholder{
-    text-indent: 10px;
 
+input::placeholder {
+    text-indent: 10px;
+    color: black;
 }
 #entrar:hover{
     cursor: pointer;
     background-color: #797777;
     color: white;
+    text-shadow: 1px 1px 1px black;
 }
 #idemail:hover,#idsenha:hover{
     background-color: white;
+    color: black;
 
 }
 
@@ -111,7 +102,6 @@ form{
 /* --- IMAGEM --- */
 #imagem{
     display: flex;
-    background-color: green;
     height: 40%;
     border-top: 10px;
     border-radius: 15px 15px 0px 0px;
